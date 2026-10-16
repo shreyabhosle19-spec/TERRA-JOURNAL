@@ -1,0 +1,6 @@
+{
+  "name": "TERRA - Real Estate Journal & Budget Matcher",
+  "description": "An authoritative real estate journal featuring 10 in-depth monographs on equity, financing, and architectural valuation, integrated with an interactive budget explorer showing matching properties.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,592 @@
+import { Article } from '../types/blog';
+
+export const ARTICLES: Article[] = [
+  {
+    id: 'poetry-of-mass-timber',
+    slug: 'poetry-of-mass-timber',
+    title: 'The Poetry of Mass Timber: How Cross-Laminated Wood Reshapes Urban Sanctuaries',
+    subtitle: 'From carbon sinks to acoustic serenity, timber engineering is dismantling the concrete monopoly of twentieth-century civic spaces.',
+    category: 'Architecture',
+    readTime: '7 min read',
+    date: 'October 14, 2026',
+    author: {
+      name: 'Elena Vane',
+      role: 'Architectural Theorist, Zurich Institute of Spatial Studies',
+      initials: 'EV',
+    },
+    image: '/src/assets/images/timber_library_1792137916304.jpg',
+    imageCaption: 'Fig. 1 — Mass timber atrium and biophilic skylight sequence at the Nordic Civic Sanctuary, Stockholm.',
+    pullQuote: 'A timber beam does not merely support gravity; it breathes moisture, moderates frequency, and connects the inhabitant to the cyclical memory of the forest.',
+    pullQuoteAuthor: 'Elena Vane, On Organic Enclosures',
+    excerpt: 'Cross-laminated timber (CLT) is no longer a sustainable novelty—it has matured into an architectural language of profound quietude, offering human beings an antidote to the hard-edged reverberation of the contemporary metropolis.',
+    featuredTier: 'lead',
+    likes: 142,
+    tags: ['Mass Timber', 'Biophilic Design', 'Carbon Neutral', 'Civic Architecture'],
+    tableOfContents: [
+      { id: 'structural-alchemy', title: 'The Structural Alchemy of CLT' },
+      { id: 'sensory-acoustics', title: 'Sensory Acoustics & The Warm Decibel' },
+      { id: 'cellular-longevity', title: 'Carbon Sequestration and Cellular Longevity' },
+      { id: 'toward-sanctuary', title: 'Toward the Civic Sanctuary' },
+    ],
+    sections: [
+      {
+        id: 'structural-alchemy',
+        heading: 'The Structural Alchemy of CLT',
+        paragraphs: [
+          'For nearly a century, our definition of civic monumentality was cast in liquid stone. Concrete and rolled structural steel permitted spans of unprecedented audacity, but in doing so, they established an unforgiving domestic and urban atmosphere: cold to the fingertips, reflective of shrill frequencies, and profoundly detached from biological rhythms.',
+          'Cross-laminated timber has altered this equation permanently. By alternating perpendicular layers of kiln-dried softwood boards pressed under high-tonnage hydraulic rams, modern timber architects achieve tensile strengths that rival medium-grade steel with less than one-fifth of its dead weight. Yet the triumph is not merely structural; it is atmospheric.',
+        ],
+        callout: {
+          type: 'margin-note',
+          text: 'Cross-laminated timber absorbs approximately 1 tonne of atmospheric CO₂ per cubic metre of lumber, storing carbon throughout the structure\'s century-long operational lifecycle.',
+        },
+      },
+      {
+        id: 'sensory-acoustics',
+        heading: 'Sensory Acoustics & The Warm Decibel',
+        paragraphs: [
+          'Step inside an expansive timber hall, and the first transformation you encounter is not optical—it is auditory. The cellular cavities within softwood fibers act as natural micro-dampers for conversational frequencies (500 Hz to 2 kHz). Where concrete atriums bounce voices into an abrasive din, timber surfaces swallow the harsh edges of ambient chatter.',
+          'In library environments like the newly commissioned Nordic Civic Sanctuary, this property produces a palpable drop in resting heart rates among visitors. People speak in unhurried whispers, instinctively attuned to the soft reverberation times that recall woodland canopies.',
+        ],
+        callout: {
+          type: 'quote',
+          text: 'In our rush to optimize square meters, we forgot that human ears evolved under leaf and bark, not within reverberant concrete tunnels.',
+          citation: 'Dr. Nils Arvidsson, Psychoacoustics in Architecture (2025)',
+        },
+      },
+      {
+        id: 'cellular-longevity',
+        heading: 'Carbon Sequestration and Cellular Longevity',
+        paragraphs: [
+          'Critics once raised the phantom of structural vulnerability—specifically fire safety and moisture degradation. Decades of rigorous destructive testing have proven these anxieties unfounded. Large-dimension mass timber chars at a predictable rate of 0.65 mm per minute, forming an insulating outer barrier of carbonized cellulose that preserves the structural core far longer than unprotected steel beams, which buckle precipitously under thermal shock.',
+          'Sourced from certified regenerative boreal forests where three saplings are planted for every mature fir harvested, mass timber buildings act as permanent terrestrial carbon vaults. A 12-story timber framework holds carbon out of the global climate cycle for generations, standing as a living archive of solar energy captured by forest photosynthesis.',
+        ],
+      },
+      {
+        id: 'toward-sanctuary',
+        heading: 'Toward the Civic Sanctuary',
+        paragraphs: [
+          'Architecture in the mid-twenty-first century must accomplish more than shelter; it must heal the cognitive fragmentation produced by continuous digital acceleration. The warmth of Douglas fir, the visible knots in spruce columns, and the subtle scent of natural terpenes elevate a public library from a transactional container into a communal sanctuary.',
+          'As metropolitan centers reconsider post-industrial density, mass timber presents an urgent invitation: to build cities that look, feel, and age like living extensions of the terrestrial biosphere.',
+        ],
+      },
+    ],
+  },
+  {
+    id: 'monolithic-silence-nordic-brutalism',
+    slug: 'monolithic-silence-nordic-brutalism',
+    title: 'Monolithic Silence: Nordic Brutalism and the Sacred Weight of Concrete',
+    subtitle: 'Examining the raw, board-formed forest chapels of Scandinavia where heavy aggregate meets the whispering quiet of northern pines.',
+    category: 'Field Notes',
+    readTime: '9 min read',
+    date: 'October 08, 2026',
+    author: {
+      name: 'Marcus Lindqvist',
+      role: 'Spatial Photographer & Essayist, Helsinki',
+      initials: 'ML',
+    },
+    image: '/src/assets/images/brutalist_pavilion_1792137915986.jpg',
+    imageCaption: 'Fig. 2 — Board-formed concrete pavilion nestled in the mist-laden pine slopes of Telemark, Norway.',
+    pullQuote: 'Weight in architecture is not an impediment to light; it is the absolute ground against which light discovers its drama.',
+    pullQuoteAuthor: 'Marcus Lindqvist',
+    excerpt: 'Far from the cold totalitarian caricatures of urban brutalism, Nordic concrete architecture harnesses raw tactile grain, moss integration, and raking morning light to create spaces of profound monastic contemplation.',
+    featuredTier: 'secondary',
+    likes: 98,
+    tags: ['Brutalism', 'Nordic Architecture', 'Concrete', 'Monastic Space'],
+    tableOfContents: [
+      { id: 'weight-and-forest', title: 'Weight Meets the Forest' },
+      { id: 'board-formed-tactility', title: 'The Memory of Wooden Shuttering' },
+      { id: 'patina-of-lichen', title: 'Lichen, Water Stains, and Time' },
+    ],
+    sections: [
+      {
+        id: 'weight-and-forest',
+        heading: 'Weight Meets the Forest',
+        paragraphs: [
+          'There is a persistent cultural myth that brutalism is inherently adversarial to nature. We imagine barren plazas in 1970s megastructures, wind-swept and stained with gray rainwater. But travel north into the pine forests of Telemark and Dalarna, and you encounter a radically different lineage of concrete.',
+          'Here, architects like Sigurd Lewerentz and Sverre Fehn understood concrete not as an industrial synthetic, but as artificial stone. Placed among ancient granitic outcroppings and towering Scots pines, a low-slung board-formed concrete pavilion feels as geological and rooted as a glacial erratic.',
+        ],
+      },
+      {
+        id: 'board-formed-tactility',
+        heading: 'The Memory of Wooden Shuttering',
+        paragraphs: [
+          'The defining soul of Nordic brutalism lies in its shuttering. Rather than smooth steel formwork that yields a plastic-smooth surface, Nordic builders poured aggregate against rough-sawn pine planks. When the forms were struck, the concrete retained the knot-holes, grain striations, and fibrous splinters of the timber that held it.',
+          'At low solar angles—when the winter sun barely skims the horizon at 12 degrees—raking light cuts across these concrete surfaces, illuminating a microscopic landscape of ridges and valleys. It is stone that remembers having once been wood.',
+        ],
+        callout: {
+          type: 'quote',
+          text: 'Concrete is the only material that begins as fluid chaos and solidifies into geological stillness in our own hands.',
+          citation: 'Sverre Fehn, The Poetry of the Rough Surface',
+        },
+      },
+      {
+        id: 'patina-of-lichen',
+        heading: 'Lichen, Water Stains, and Time',
+        paragraphs: [
+          'Contemporary architects often fear weathering, sealing surfaces with hydrophobic silicone emulsions to prevent discoloration. In the Nordic forest pavilions, weathering is treated as an active co-author.',
+          'Where morning condensation trickles down vertical concrete reveals, yellow xanthoria lichens take root. The acidity of pine needles softens sharp chamfers. Rather than decaying, the pavilion matures into the forest floor, proving that raw permanence is the highest form of architectural grace.',
+        ],
+      },
+    ],
+  },
+  {
+    id: 'carving-the-mountain-stone-craft',
+    slug: 'carving-the-mountain-stone-craft',
+    title: 'Carving the Mountain: The Living Hand of the Istrian Stone Masons',
+    subtitle: 'Inside the subterranean limestone quarries where generational chisel-work defies digital manufacturing uniformity.',
+    category: 'Material Craft',
+    readTime: '6 min read',
+    date: 'September 29, 2026',
+    author: {
+      name: 'Chiara De Luca',
+      role: 'Material Anthropologist, Venice',
+      initials: 'CD',
+    },
+    image: '/src/assets/images/stone_craft_quarry_1792137916285.jpg',
+    imageCaption: 'Fig. 3 — Master stonemason Paolo Vascotto dressing a block of Pietra d’Istria with hand mallets in Kanfanar.',
+    pullQuote: 'The diamond saw creates an edge of mechanical deadness; the hand chisel leaves a surface that catches every shifting nuance of solar azimuth.',
+    pullQuoteAuthor: 'Chiara De Luca',
+    excerpt: 'In an era dominated by computerized 5-axis CNC cutters, a pocket of master stonemasons along the Istrian peninsula continues to dress limestone by ear, feeling the bedding planes with steel chisels.',
+    featuredTier: 'secondary',
+    likes: 115,
+    tags: ['Stone Masonry', 'Vernacular Craft', 'Mediterranean', 'Slow Architecture'],
+    tableOfContents: [
+      { id: 'subterranean-chambers', title: 'Subterranean Chambers and Bedding Planes' },
+      { id: 'listening-to-stone', title: 'Listening to the Stone' },
+      { id: 'imperfection-as-light', title: 'Micro-Topography and Incident Light' },
+    ],
+    sections: [
+      {
+        id: 'subterranean-chambers',
+        heading: 'Subterranean Chambers and Bedding Planes',
+        paragraphs: [
+          'Pietra d’Istria is the dense, ivory limestone that saved Venice from sliding into the lagoon. Low in porosity and exceptionally resistant to saline aerosol corrosion, it has framed the Gothic traceries of the Doge’s Palace for seven centuries.',
+          'Descending sixty meters into the Kanfanar quarry, the air drops twenty degrees. Huge squared monoliths sit upon wooden skids, surrounded by dust that smells of ancient sea mollusks compressed over ninety million years.',
+        ],
+      },
+      {
+        id: 'listening-to-stone',
+        heading: 'Listening to the Stone',
+        paragraphs: [
+          'Paolo Vascotto, sixty-two, strikes a thirty-centimeter chisel against an unfinished block. The pitch is high and clear, like a bell. "A dull thud means an internal hairline fracture," he explains without looking up. "The CNC scanner cannot feel the tension in the crystal matrix. The hand knows before the stone gives."',
+          'He chips along the bedding plane with a wooden mallet carved from wild olive root. Each strike removes a shaving of calcium carbonate no thicker than a wafer, coaxing the stone into plumb lines that possess subtle, breatheable variations.',
+        ],
+        callout: {
+          type: 'margin-note',
+          text: 'Pietra d’Istria exhibits a water absorption rate under 0.18%, making it impervious to freeze-thaw cycles that shatter softer limestones and sandstones.',
+        },
+      },
+      {
+        id: 'imperfection-as-light',
+        heading: 'Micro-Topography and Incident Light',
+        paragraphs: [
+          'When modern builders install mechanically wire-sawn stone panels, the building looks sharp for twelve months before looking cheap for thirty years. The absolute smoothness causes rainwater to sheet uniformly, streaking soot in unappealing tears.',
+          'Hand-dressed stone, by contrast, possesses a microscopic topography of micro-facets. Water catches and disperses; daylight breaks into thousands of minute highlights. The wall lives, breathes, and dialogues with the sun.',
+        ],
+      },
+    ],
+  },
+  {
+    id: 'canopies-above-fog-vertical-meadows',
+    slug: 'canopies-above-fog-vertical-meadows',
+    title: 'Canopies Above the Fog: The Emergence of Vertical Micro-Meadows in Dense Metropolises',
+    subtitle: 'How high-altitude botanical engineering turns skyscraper rooftops into active ecological corridors and thermal sponges.',
+    category: 'Urban Ecology',
+    readTime: '8 min read',
+    date: 'September 22, 2026',
+    author: {
+      name: 'Dr. Soren K. Mehta',
+      role: 'Director of Applied Urban Ecology, Singapore',
+      initials: 'SM',
+    },
+    image: '/src/assets/images/urban_ecology_roof_1792137917372.jpg',
+    imageCaption: 'Fig. 4 — Biodiverse endemic graminoid roof meadow atop the Marina Heights residential terrace, Singapore.',
+    pullQuote: 'A green roof cannot be treated as a cosmetic wig placed on a concrete skull; it must function as an integrated circulatory organ of the building.',
+    pullQuoteAuthor: 'Dr. Soren K. Mehta',
+    excerpt: 'Replacing sterile tar roofs with multi-layered wild meadows reduces urban heat island intensity by up to 4.2°C while providing vital stepping-stone corridors for migratory songbirds and solitary bees.',
+    featuredTier: 'secondary',
+    likes: 89,
+    tags: ['Urban Ecology', 'Green Roofs', 'Biodiversity', 'Microclimate'],
+    tableOfContents: [
+      { id: 'death-of-sedum-mats', title: 'The Death of Monoculture Sedum Mats' },
+      { id: 'sub-strata-physics', title: 'Thermal Sponge & Sub-Strata Physics' },
+      { id: 'skyward-pollinators', title: 'Pollinator Corridors at 150 Meters' },
+    ],
+    sections: [
+      {
+        id: 'death-of-sedum-mats',
+        heading: 'The Death of Monoculture Sedum Mats',
+        paragraphs: [
+          'First-generation green roofs were largely greenwashing exercises: pre-grown sedum blankets rolled onto water-impermeable membranes like carpet in an airport hotel. In intense summer heatwaves, these shallow succulent mats baked, turned brown, and required constant municipal water top-offs.',
+          'The second generation of urban ecology is unapologetically wild. Utilizing custom substrate blends of expanded clay aggregate, pumice, and aged compost (depths of 25 to 45 cm), ecologists are seeding native steppe grasses, deep-rooted forbs, and drought-tolerant legumes that self-sow and evolve with seasonal weather shifts.',
+        ],
+      },
+      {
+        id: 'sub-strata-physics',
+        heading: 'Thermal Sponge & Sub-Strata Physics',
+        paragraphs: [
+          'Conventional black bituminous roofing reaches surface temperatures of 70°C on a clear summer afternoon, radiating that thermal load directly into the building envelope below and amplifying the urban heat island effect.',
+          'A biodiverse living meadow caps that surface temperature at a cool 28°C via continuous evapotranspiration. On an 800-square-meter floor plate, the air conditioning chillers on the level below run at 38% reduced load, saving thousands of kilowatt-hours every month while silently absorbing 90% of localized flash cloudburst stormwater.',
+        ],
+        callout: {
+          type: 'stat',
+          text: 'Field tests demonstrate that 100 m² of deep-substrate meadow retains up to 7,500 liters of peak stormwater runoff, preventing sewer overflow discharges during extreme downpours.',
+        },
+      },
+      {
+        id: 'skyward-pollinators',
+        heading: 'Pollinator Corridors at 150 Meters',
+        paragraphs: [
+          'The most surprising discovery of recent entomological surveys is height tolerance. Native solitary bees (such as Osmia bicornis) and syrphid hoverflies routinely forage up to the fortieth floor when guided by updrafts along building facades.',
+          'By choreographing rooftop meadows in linear constellations across metropolitan districts, city planners create high-altitude archipelagos where pollinators cross previously uninhabitable concrete canyons with ease.',
+        ],
+      },
+    ],
+  },
+  {
+    id: 'strata-of-the-sun-rammed-earth',
+    slug: 'strata-of-the-sun-rammed-earth',
+    title: 'Strata of the Sun: Thermal Inertia and the Revival of Rammed Earth',
+    subtitle: 'Modern sub-desert villas demonstrate how unprocessed subsoil provides zero-carbon walls that regulate desert extremes effortlessly.',
+    category: 'Architecture',
+    readTime: '6 min read',
+    date: 'September 15, 2026',
+    author: {
+      name: "Julian O'Connor",
+      role: 'Passive Solar Architect, Santa Fe',
+      initials: 'JO',
+    },
+    image: '/src/assets/images/rammed_earth_villa_1792137932754.jpg',
+    imageCaption: 'Fig. 5 — Layered earthen wall construction utilizing local iron-rich clays in the Sonoran desert basin.',
+    pullQuote: 'The dirt beneath our foundations is not debris to be carted to landfills; it is the most sophisticated thermal battery ever engineered.',
+    pullQuoteAuthor: "Julian O'Connor",
+    excerpt: 'Rammed earth construction reclaims ancient geotechnical wisdom: compressing local clay, gravel, and silt into 50cm thick monolithic walls that absorb searing daytime heat and release it into the house at midnight.',
+    featuredTier: 'standard',
+    likes: 124,
+    tags: ['Rammed Earth', 'Passive Solar', 'Vernacular', 'Thermal Mass'],
+    tableOfContents: [
+      { id: 'thermal-phase-lag', title: 'The 12-Hour Phase Lag' },
+      { id: 'mineral-pigmentation', title: 'Sedimentary Beauty & Mineral Banding' },
+      { id: 'zero-embodied-energy', title: 'The True Cost of Manufacturing Clay' },
+    ],
+    sections: [
+      {
+        id: 'thermal-phase-lag',
+        heading: 'The 12-Hour Phase Lag',
+        paragraphs: [
+          'In arid climates, temperatures swing violently: 38°C at 2 PM, plummeting to 11°C by 3 AM. Lightweight framed houses battle this oscillation with brute force—insulation batts and oversized compressor units humming around the clock.',
+          'A 500mm rammed earth wall operates through a phenomenon known as thermal phase lag. Heat from the harsh exterior sun takes approximately eleven to twelve hours to conduct through the density of compacted soil. By the time the thermal wave reaches the interior face of the wall, the cool desert night has arrived, warming the living quarters exactly when supplemental heating would normally be required.',
+        ],
+      },
+      {
+        id: 'mineral-pigmentation',
+        heading: 'Sedimentary Beauty & Mineral Banding',
+        paragraphs: [
+          'Visually, rammed earth possesses a majestic presence that no drywall or plaster can simulate. As pneumatically compressed lifts of soil are deposited into formwork, masons blend natural ochres, umbers, and chalk veins. The completed wall resembles a sliced canyon wall—geological time made domestic.',
+        ],
+        callout: {
+          type: 'quote',
+          text: 'There is an honesty to earth. It doesn’t pretend to be seamless or immortal; it accepts the touch of the hand and the slant of the sun.',
+          citation: 'Rick Joy, Desert Monoliths',
+        },
+      },
+      {
+        id: 'zero-embodied-energy',
+        heading: 'The True Cost of Manufacturing Clay',
+        paragraphs: [
+          'When excavated subsoil from building footings is utilized directly on site, embodied carbon drops by over 80% compared to fired brick or standard reinforced masonry. Rammed earth structures require minimal water, produce zero toxic off-gassing, and at the end of their multi-century lifespan, can be returned directly into the agricultural soil without hazardous waste processing.',
+        ],
+      },
+    ],
+  },
+  {
+    id: 'quiet-room-tactile-ceramics',
+    slug: 'quiet-room-tactile-ceramics',
+    title: 'The Quiet Room: Tactile Ceramics, Wabi Aesthetics, and Domestic Stillness',
+    subtitle: 'An intimate conversation with master potter Kenzo Mori on how physical vessel design shapes morning rituals and spatial tranquility.',
+    category: 'Interviews',
+    readTime: '5 min read',
+    date: 'September 02, 2026',
+    author: {
+      name: 'Aoi Takahashi',
+      role: 'Ceramicist & Scenographer, Kyoto',
+      initials: 'AT',
+    },
+    image: '/src/assets/images/ceramic_atelier_1792137933892.jpg',
+    imageCaption: 'Fig. 6 — Natural unglazed stoneware drying on solid hinoki cypress planks inside the Mori Atelier, Tamba-Sasayama.',
+    pullQuote: 'A room does not become peaceful because it is empty; it becomes peaceful when every object inside it has stopped competing for your anxiety.',
+    pullQuoteAuthor: 'Kenzo Mori',
+    excerpt: 'Master potter Kenzo Mori discusses the physics of clay, why perfection in industrial ceramics creates subconscious fatigue, and how coarse mineral grains anchor human awareness.',
+    featuredTier: 'standard',
+    likes: 167,
+    tags: ['Ceramics', 'Japanese Design', 'Wabi-Sabi', 'Interior Rituals'],
+    tableOfContents: [
+      { id: 'meeting-the-wheel', title: 'The Weight of Tamba Clay' },
+      { id: 'accidental-wood-firing', title: 'Fire and the Natural Ash Glaze' },
+      { id: 'silence-in-the-hand', title: 'Silence in the Hand' },
+    ],
+    sections: [
+      {
+        id: 'meeting-the-wheel',
+        heading: 'The Weight of Tamba Clay',
+        paragraphs: [
+          'Kenzo Mori’s studio in the hills of Hyogo Prefecture smells of wet moss and dried cedar shavings. On low cypress tables, hundreds of hand-thrown chawan (tea bowls) and vases rest in graded rows, drying slowly in the cool morning humidity.',
+          '"When a city dweller enters a modern room," Mori begins, pouring green tea from an unglazed teapot, "their eyes are bombarded by planar plastics and uniform glass. There is no resistance. No friction. The mind glides across everything and remembers nothing."',
+        ],
+      },
+      {
+        id: 'accidental-wood-firing',
+        heading: 'Fire and the Natural Ash Glaze',
+        paragraphs: [
+          'Mori does not use commercial glazes. Instead, his vessels are fired for five days inside an anagama kiln fueled exclusively by split red pine. Pine ash flies through the turbulent draft, melting onto the clay bodies at 1,300°C to form serendipitous patterns of vitreous olive green and smoky amber.',
+          '"We cannot control where the flame strikes," he says. "We can only place the pot in the current with humility. The Japanese concept of wabi is not romantic rust; it is the acceptance that nature is the final craftsman, and we are only the apprentices."',
+        ],
+        callout: {
+          type: 'quote',
+          text: 'The machine gives us precision without soul. The hand gives us imperfection that mirrors our own fragile humanity.',
+          citation: 'Soetsu Yanagi, The Unknown Craftsman',
+        },
+      },
+      {
+        id: 'silence-in-the-hand',
+        heading: 'Silence in the Hand',
+        paragraphs: [
+          'When you lift a Mori vessel to drink, your fingers immediately detect microscopic quartz grains embedded within the iron clay. The rim is deliberately asymmetrical, requiring you to slow down, look down, and engage with the physical act of sustenance.',
+          'In that pause, the ambient noise of notifications and deadlines dissolves. The ceramic vessel becomes an architectural room unto itself.',
+        ],
+      },
+    ],
+  },
+  {
+    id: 'shadows-as-architecture-tanizaki',
+    slug: 'shadows-as-architecture-tanizaki',
+    title: "Shadows as Architecture: Jun'ichiro Tanizaki's Legacy in Modern Lighting Design",
+    subtitle: 'Why the aggressive over-illumination of contemporary interiors flattens our spatial perception, and how to design with darkness.',
+    category: 'Essays',
+    readTime: '7 min read',
+    date: 'August 24, 2026',
+    author: {
+      name: 'Hiroshi Morimoto',
+      role: 'Light Sculptor & Spatial Dramaturge, Tokyo',
+      initials: 'HM',
+    },
+    image: '/src/assets/images/brutalist_pavilion_1792137915986.jpg',
+    imageCaption: 'Fig. 7 — Deep eaves and indirect ceiling reflection create gradations of penumbra in traditional and modern timber halls.',
+    pullQuote: 'We find beauty not in the thing itself, but in the patterns of shadows, the light and the darkness, that one thing provides against another.',
+    pullQuoteAuthor: "Jun'ichiro Tanizaki, In Praise of Shadows (1933)",
+    excerpt: 'Ninety years after Tanizaki wrote his masterwork, our offices and apartments remain blinded by 5000K recessed downlights. A manifesto for restoring depth, mystery, and penumbra to our living environments.',
+    featuredTier: 'standard',
+    likes: 204,
+    tags: ['Lighting Design', 'Tanizaki', 'Atmosphere', 'Japanese Aesthetics'],
+    tableOfContents: [
+      { id: 'tyranny-of-the-downlight', title: 'The Tyranny of the Recessed Downlight' },
+      { id: 'golden-glimmer-in-dark', title: 'Gold Leaf in Dim Rooms' },
+      { id: 'designing-the-penumbra', title: 'Principles of Penumbral Architecture' },
+    ],
+    sections: [
+      {
+        id: 'tyranny-of-the-downlight',
+        heading: 'The Tyranny of the Recessed Downlight',
+        paragraphs: [
+          'Walk into almost any residential renovation built in the last twenty years, and you will find the ceiling peppered with a grid of recessed LED spotlights. These miniature surgical lamps blast photons downward in uniform cones, obliterating volume, casting unflattering eye-socket shadows on faces, and annihilating atmospheric depth.',
+          'We have confused luminance with clarity. In doing so, we have forgotten that the human eye perceives three-dimensional form not through brightness alone, but through the gentle graduation between illuminated surface and penumbra.',
+        ],
+      },
+      {
+        id: 'golden-glimmer-in-dark',
+        heading: 'Gold Leaf in Dim Rooms',
+        paragraphs: [
+          'In his seminal 1933 essay In Praise of Shadows, Jun\'ichiro Tanizaki remarked that Westerners often found traditional Japanese lacquerware and folding screens dull when viewed in bright daylight. But take those same gold-leaf screens into a dimly lit tatami room where only weak light filters through a paper shoji screen, and the gold suddenly catches the lone candle flame with an eerie, phosphorescent grandeur.',
+          'Gold was never meant to show wealth under electric globes; it was engineered as a passive optical amplifier in near-total darkness.',
+        ],
+        callout: {
+          type: 'quote',
+          text: 'Light is precious only when it is husbanded. When it is squandered without boundary, it ceases to illuminate and begins to blind.',
+          citation: 'In Praise of Shadows',
+        },
+      },
+      {
+        id: 'designing-the-penumbra',
+        heading: 'Principles of Penumbral Architecture',
+        paragraphs: [
+          'To restore sanity to modern lighting, we must adopt three rules: First, extinguish central ceiling fixtures in favor of low-level perimeter illumination that bounces off textured walls. Second, embrace warm color temperatures (2200K–2700K) that align with melatonin cycles. And third, have the courage to leave corners dark.',
+          'When we allow a room to keep its shadows, we restore its spatial privacy and its dream-state.',
+        ],
+      },
+    ],
+  },
+  {
+    id: 'wind-towers-passive-cooling-isfahan',
+    slug: 'wind-towers-passive-cooling-isfahan',
+    title: 'Water Channels & Wind Towers: The High-Efficiency Passive Cooling of Ancient Isfahan',
+    subtitle: 'How badgirs and subterranean qanat conduits maintained 18°C indoor sanctuaries during 45°C desert summers with zero electricity.',
+    category: 'Field Notes',
+    readTime: '9 min read',
+    date: 'August 11, 2026',
+    author: {
+      name: 'Samira Rastan',
+      role: 'Vernacular Engineering Historian, Isfahan',
+      initials: 'SR',
+    },
+    image: '/src/assets/images/rammed_earth_villa_1792137932754.jpg',
+    imageCaption: 'Fig. 8 — Dual-action wind-catcher tower and courtyard water basin channeling thermodynamic convective drafts.',
+    pullQuote: 'Before compressors burned fossil fuels to chill air, architects negotiated with the sky using geometry, buoyancy, and evaporating mountain snow.',
+    pullQuoteAuthor: 'Samira Rastan',
+    excerpt: 'Centuries before mechanical HVAC systems, Persian desert builders mastered fluid dynamics to create zero-energy air conditioning systems so effective they preserved ice through desert Augusts.',
+    featuredTier: 'standard',
+    likes: 83,
+    tags: ['Passive Cooling', 'Vernacular Engineering', 'Wind Towers', 'Hydrology'],
+    tableOfContents: [
+      { id: 'fluid-dynamics-of-badgir', title: 'The Aerodynamics of the Badgir' },
+      { id: 'subterranean-qanats', title: 'The Underworld River: Qanat Integration' },
+      { id: 'lessons-for-zero-carbon-cities', title: 'Lessons for the Post-AC Metropolis' },
+    ],
+    sections: [
+      {
+        id: 'fluid-dynamics-of-badgir',
+        heading: 'The Aerodynamics of the Badgir',
+        paragraphs: [
+          'On the arid plateau of central Iran, the summer sun is merciless. Yet step off the blistering street of Yazd or Isfahan into the basement of an historic merchant house, and the temperature plummets twenty-five degrees Celsius. There are no humming condenser coils, no refrigerant lines, no electrical generators.',
+          'The engine of this comfort is the badgir—a soaring masonry wind-catcher tower rising fifteen to twenty meters above the courtyard roofs. Divided internally into four vertical flues, the badgir captures the faintest breezes that sweep over the city at high altitude, funneling air downward into the home.',
+        ],
+      },
+      {
+        id: 'subterranean-qanats',
+        heading: 'The Underworld River: Qanat Integration',
+        paragraphs: [
+          'The true thermodynamic genius emerges when the badgir is linked to the qanat—ancient underground gravity aqueducts that bring cold snowmelt water from distant mountains. When warm dry wind is forced downward, it passes across subterranean water canals before entering the living rooms.',
+          'Through adiabatic evaporative cooling, heat energy is consumed as water molecules vaporize, chilling the air stream while raising relative humidity from an arid 8% to a soothing 45%. Concurrently, warmer air in the home rises through the opposite leeward flues via stack effect, exhausting stale air continuously.',
+        ],
+        callout: {
+          type: 'stat',
+          text: 'Calculations indicate a traditional four-sided Yazd badgir generates a continuous convective airflow exceeding 800 m³/hour with zero watts of grid electricity.',
+        },
+      },
+      {
+        id: 'lessons-for-zero-carbon-cities',
+        heading: 'Lessons for the Post-AC Metropolis',
+        paragraphs: [
+          'As modern electrical grids grovel under peak heatwave loads caused by millions of simultaneous AC units, contemporary high-rise towers in Dubai, Madrid, and Phoenix can no longer ignore this fluid mechanics legacy.',
+          'By incorporating thermal chimneys, solar stack towers, and evaporative court atriums into tall building cores, we can slash mechanical cooling loads by up to 60%, grounding twenty-first century technology in Persian hydrological brilliance.',
+        ],
+      },
+    ],
+  },
+  {
+    id: 'fifteen-minute-micro-district',
+    slug: 'fifteen-minute-micro-district',
+    title: 'The 15-Minute Micro-District: Reclaiming the Human Scale in Megacities',
+    subtitle: 'Why the transition away from arterial thoroughfares toward permeable pocket neighborhoods is revitalizing civic health.',
+    category: 'Urban Ecology',
+    readTime: '6 min read',
+    date: 'July 28, 2026',
+    author: {
+      name: 'Claire Fontaine',
+      role: 'Civic Urbanist & Spatial Researcher, Paris',
+      initials: 'CF',
+    },
+    image: '/src/assets/images/urban_ecology_roof_1792137917372.jpg',
+    imageCaption: 'Fig. 9 — Pocket street transformation with permeable paving, micro-parks, and child-safe walking school-bus corridors in the 11th Arrondissement.',
+    pullQuote: 'A healthy city is not measured by how quickly a private automobile can cross it, but by how safely an eight-year-old and an eighty-year-old can walk its sidewalks alone.',
+    pullQuoteAuthor: 'Claire Fontaine',
+    excerpt: 'The battle for the modern city is won or lost at the pedestrian street corner. Case studies from Paris, Barcelona, and Seoul demonstrate that removing automobile priority enhances economic vitality.',
+    featuredTier: 'standard',
+    likes: 111,
+    tags: ['Urban Planning', 'Pedestrian Cities', '15-Minute City', 'Public Space'],
+    tableOfContents: [
+      { id: 'end-of-highway-city', title: 'The Failure of the Single-Purpose Corridors' },
+      { id: 'superblocks-and-play-streets', title: 'Superblocks, School Streets, and Third Places' },
+      { id: 'hyper-local-resilience', title: 'Hyper-Local Economic Multipliers' },
+    ],
+    sections: [
+      {
+        id: 'end-of-highway-city',
+        heading: 'The Failure of the Single-Purpose Corridors',
+        paragraphs: [
+          'For seven decades, urban engineering was subordinated to a single metric: vehicle throughput per hour. Streets that had served as marketplaces, children’s playgrounds, and democratic forums for three thousand years were reduced to high-speed asphalt pipelines.',
+          'The social and physiological cost has been immense: soaring pediatric asthma rates, chronic social isolation, and the suburban hollow-out of historic centers.',
+        ],
+      },
+      {
+        id: 'superblocks-and-play-streets',
+        heading: 'Superblocks, School Streets, and Third Places',
+        paragraphs: [
+          'The counter-revolution began with Barcelona’s "superilles" (superblocks) and has now evolved into the 15-Minute City doctrine. By restricting through-traffic to perimeter arterials, interior neighborhood grids become quiet pedestrian-priority zones where trees replace curbside parking.',
+          'Children cycle safely to school. Sidewalk cafes spill across cobblestones. Neighborhood noise levels drop by 15 decibels, allowing birdsong and unhurried human conversation to return as the background music of city life.',
+        ],
+        callout: {
+          type: 'quote',
+          text: 'The street is the river of life of the city, the place where we come together and discover our shared belonging.',
+          citation: 'Jane Jacobs, The Death and Life of Great American Cities',
+        },
+      },
+      {
+        id: 'hyper-local-resilience',
+        heading: 'Hyper-Local Economic Multipliers',
+        paragraphs: [
+          'Skeptics predicted that removing car parking would ruin small merchants. The opposite occurred: foot traffic increased by 34%, dwell times doubled, and local bakeries, bookshops, and repair ateliers recorded record profits.',
+          'When humans are allowed to walk at 4 km/h rather than rush past at 60 km/h, they notice their neighbors, support their artisans, and build civic resilience.',
+        ],
+      },
+    ],
+  },
+  {
+    id: 'patina-of-use-buildings-age-like-wine',
+    slug: 'patina-of-use-buildings-age-like-wine',
+    title: 'The Patina of Use: Why Buildings Should Age Like Wine, Not Plastic',
+    subtitle: 'Weathering steel, unlacquered brass, and the philosophical courage to design structures that grow more dignified as they wear.',
+    category: 'Essays',
+    readTime: '5 min read',
+    date: 'July 14, 2026',
+    author: {
+      name: 'David Sterling',
+      role: 'Senior Conservation Fellow, Edinburgh',
+      initials: 'DS',
+    },
+    image: '/src/assets/images/stone_craft_quarry_1792137916285.jpg',
+    imageCaption: 'Fig. 10 — Oxidized bronze handrail and hand-smoothed limestone treads exhibiting fifty years of dignified human touch.',
+    pullQuote: 'Modern materials do not age; they merely deteriorate. True architectural craft embraces the scar of the human touch as an indelible enrichment.',
+    pullQuoteAuthor: 'David Sterling',
+    excerpt: 'Our architectural obsession with eternal brand-newness produces sterile buildings that look their best on ribbon-cutting day and decay into tragic obsolescence within a decade. A case for living materials.',
+    featuredTier: 'standard',
+    likes: 153,
+    tags: ['Materiality', 'Patina', 'Architectural Ethics', 'Preservation'],
+    tableOfContents: [
+      { id: 'plastic-immortality', title: 'The Curse of Plastic Immortality' },
+      { id: 'honest-metals-and-timber', title: 'Brass, Copper, and the Story of the Hand' },
+      { id: 'architecture-for-posterity', title: 'Designing for the Second Century' },
+    ],
+    sections: [
+      {
+        id: 'plastic-immortality',
+        heading: 'The Curse of Plastic Immortality',
+        paragraphs: [
+          'Aluminum composite cladding, vinyl flooring, and polyurethane clear-coats share a common flaw: they are designed to look identical on day one thousand as they did on day one. But because all matter exists under thermodynamic entropy, these synthetic surfaces cannot age gracefully. They scratch, peel, fade unevenly, and look miserable.',
+          'Once a synthetic surface is damaged, it cannot be healed; it can only be ripped out and dumped into a landfill. It possesses no capacity for patina.',
+        ],
+      },
+      {
+        id: 'honest-metals-and-timber',
+        heading: 'Brass, Copper, and the Story of the Hand',
+        paragraphs: [
+          'Compare this with unlacquered brass door handles in an old railway station or university hall. Where thousands of thumbs have gripped the latch, the metal gleams like polished gold. In the recessed hollows, deep brown copper carbonate tarnish accumulates.',
+          'The door handle registers the collective presence of human generations. It is an honest record of touch, friction, and care. The same holds true for untreated oak floorboards that develop gentle dips where generations have walked, or copper roofs that turn sea-foam verdigris over decades of rain.',
+        ],
+        callout: {
+          type: 'quote',
+          text: 'Matter has memory. When we deprive our buildings of memory, we deprive ourselves of a sense of time.',
+          citation: 'Juhani Pallasmaa, The Eyes of the Skin',
+        },
+      },
+      {
+        id: 'architecture-for-posterity',
+        heading: 'Designing for the Second Century',
+        paragraphs: [
+          'Great architecture should not peak on opening night for an Instagram photoshoot. A truly noble building is designed to look adequate in its first decade, beautiful in its fiftieth year, and transcendent after a century of storms, footsteps, and sunlight.',
+          'Let us abandon materials that pretend to be immune to time, and celebrate those that wear their age with pride.',
+        ],
+      },
+    ],
+  },
+];
